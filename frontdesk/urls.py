@@ -11,5 +11,5 @@ routers.register('guestroom',guestroomview)
 urlpatterns = [
     path('frontdesk/', include(routers.urls)),
     path('group/all/',GroupAPIView.as_view(),name='group')
-    # Other URL patterns for your Django project...
+    
 ]
